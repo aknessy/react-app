@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 form .form-control.form-control-cs{
   background-color: #181f39 !important;
   border-color: #0f152c !important;
-  font-size: 10px
+  font-size: 13px
 }
 
 form .form-control.form-control-cs:focus,
@@ -199,6 +199,12 @@ form .form-control.form-control-home:focus{
 
 form.form-inline .form-control.form-control-cs.warning-control{
   border-color: #ffc107;
+}
+
+.input-group-login-cs .input-group-text{
+  background-color: #161D3A !important;
+  border-color: #0f152c !important;
+  font-size: 13px;
 }
 
 .form .button-container,
@@ -404,7 +410,7 @@ form.form-inline .form-control.form-control-cs.warning-control{
   background-size: cover;
   margin: 2.5rem 0rem 0rem;
   padding-top: 40px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   min-height: 700px
 }
 

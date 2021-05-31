@@ -25,7 +25,7 @@ export const LoginForm = (props) => {
           <Form className="form">
             <Form.Group controlId="formPassword">
               <Form.Label srOnly>Email</Form.Label>
-              <InputGroup className="input-group-cs">
+              <InputGroup className="input-group-login-cs">
                 <InputGroup.Prepend>
                   <InputGroup.Text>
                     <i className="icofont-at"></i>
@@ -38,14 +38,13 @@ export const LoginForm = (props) => {
                   value={props.data.email}
                   placeholder="Email"
                   autoComplete="off"
-                  size="sm"
                   onChange={props.handleChange}
                 />
               </InputGroup>
             </Form.Group>
             <Form.Group controlId="formPassword">
               <Form.Label srOnly>Password</Form.Label>
-              <InputGroup>
+              <InputGroup className="input-group-login-cs">
                 <InputGroup.Prepend>
                   <InputGroup.Text>
                     <i className="icofont-key"></i>
@@ -57,7 +56,6 @@ export const LoginForm = (props) => {
                   name="password"
                   value={props.data.password}
                   placeholder="Password"
-                  size="sm"
                   onChange={props.handleChange}
                 />
               </InputGroup>

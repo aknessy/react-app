@@ -11,7 +11,7 @@ export const FeaturesArea = (props) => {
             <div className="text-wrapper">
               <h4>Platforms</h4>
               <h5 className="mb-25">An all-in-one platform with tools to cater for every business</h5>
-              <img src={`assets/images/home/easter-basket.png`} alt="Platforms" />
+              <img src={`assets/images/home/platforms.png`} alt="Platforms" />
             </div>
           </Col>
           <Col sm={7}>
@@ -31,15 +31,31 @@ export const FeaturesArea = (props) => {
                 </div>
               </Col>
               <Col sm={6}>
-                <img src={`Relaxation`} alt="Relaxation" />
-                <h5 className="header">Relaxation</h5>
-                <p></p>
+                <div className="platforms">
+                  <img src={`assets/images/home/usb-plug.png`} alt="Consumer Electronics" />
+                  <h5 className="header">Consumer Electronics</h5>
+                  <p>Improved and efficient access to consumer electronics for entertainment, communications, recreation, housekeeping, internet access, etc. </p>
+                </div>
               </Col>
               <Col sm={6}>
                 <div className="platforms">
                   <img src={`assets/images/home/unisex.png`} alt="Clothings" />
                   <h5 className="header">Clothing</h5>
                   <p>Finding that perfect piece of clothing from your favourite labels and designers is as easily tik-tok. For the love of luxury fashion, look no further.</p>
+                </div>
+              </Col>
+              <Col sm={6}>
+                <div className="platforms">
+                  <img src={`assets/images/home/bar-glass.png`} alt="Liquor" />
+                  <h5 className="header">Drinks & Liquor</h5>
+                  <p>Access to retail and convenience stores that predominantly sell beveraged drinks, wine and other pre-packaged liguors typically in bottles.</p>
+                </div>
+              </Col>
+              <Col sm={6}>
+                <div className="platforms">
+                  <img src={`assets/images/home/fast-food-tacos.png`} alt="Eatries" />
+                  <h5 className="header">Eatries & Fast food</h5>
+                  <p>Finding food outlets or drive-ins to purchase your favorite meals from the comfort of your room or offices has never been easier.</p>
                 </div>
               </Col>
             </Row>
