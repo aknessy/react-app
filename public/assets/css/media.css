@@ -1,0 +1,5 @@
+@media (max-width: 400px) {
+  .features-area .grid{
+    display: block
+  }
+}

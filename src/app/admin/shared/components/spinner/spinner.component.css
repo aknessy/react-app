@@ -1,0 +1,39 @@
+.spinner-inline{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.spinner-container{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinner-container.placement{
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  z-index: 999
+}
+
+.spinner-container .spinner-img-box,
+.spinner-inline .spinner-img-box
+{
+  width: 24px;
+  height: 24px;
+}
+
+.spinner-inline .text-indicator{
+  font-size: 12px;
+  font-weight: normal;
+  color: inherit;
+}
